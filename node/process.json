@@ -1,0 +1,9 @@
+{
+  "apps" : [{
+    "name"        : "node",
+    "script"      : "./app.js",
+    "watch"       : ["app.js"],
+    "max_memory_restart" : "4G",
+    "ignore-watch": ["node_modules"]
+  }]
+}
